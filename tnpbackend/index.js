@@ -8,6 +8,7 @@ console.log("URI:", process.env.MONGODB_URI);
 
 connectDB()
 
+
   .then(() => {
     app.listen(PORT, () => {
       console.log(`Server is running on http://localhost:${PORT}`);
