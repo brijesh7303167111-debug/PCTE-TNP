@@ -5,6 +5,7 @@ import connectDB from "./src/db/index.js";
 const PORT = process.env.PORT || 3000;
 console.log("URI:", process.env.MONGODB_URI);
 
+
 connectDB()
 
   .then(() => {
